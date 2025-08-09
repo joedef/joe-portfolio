@@ -1,0 +1,175 @@
+<!doctype html>
+<html lang="en" data-theme="auto">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Joe DeFilippo - Mentor</title>
+    <meta name="description" content="Personal portfolio of Joe DeFilippo, Mentor." />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='16' fill='%23000'/%3E%3Ctext x='50' y='58' text-anchor='middle' font-size='56' fill='%23fff' font-family='Arial, Helvetica, sans-serif'%3E%F0%9F%94%A5%3C/text%3E%3C/svg%3E">
+  </head>
+  <body>
+    <!-- Skip link for keyboard users -->
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <header class="site-header">
+      <div class="container header-inner">
+        <a class="brand" href="#home" aria-label="Go to homepage">
+          <span class="brand-logo" aria-hidden="true">◆</span>
+          <span class="brand-text">Joe DeFilippo</span>
+        </a>
+
+        <nav class="site-nav" aria-label="Primary">
+          <button id="menuToggle" class="menu-toggle" aria-expanded="false" aria-controls="navList">
+            <span class="sr-only">Toggle menu</span> ☰
+          </button>
+          <ul id="navList" class="nav-list">
+            <li><a class="nav-link" href="#about">About</a></li>
+            <!--<li><a class="nav-link" href="#projects">Projects</a></li>-->
+            <li><a class="nav-link" href="#contact">Contact</a></li>
+            <li>
+              <button id="themeToggle" class="theme-toggle" aria-label="Toggle dark mode">
+                <span class="sun" aria-hidden="true">☀︎</span>
+                <span class="moon" aria-hidden="true">🌙</span>
+              </button>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main id="main">
+      <!-- Home / Hero -->
+      <section id="home" class="section hero">
+        <div class="container hero-inner">
+          <div class="hero-copy">
+            <h1>Joe DeFilippo</h1>
+            <p class="subtitle">Mentor</p>
+            <p class="bio">
+              Vibe Coder, software tester, and mentor.
+            </p>
+            <div class="hero-cta">
+              <!--<a class="btn" href="#projects">See my work</a>-->
+              <a class="btn btn-secondary" href="#contact">Get in touch</a>
+            </div>
+          </div>
+
+          <!-- Profile picture placeholder (no extra asset needed) -->
+          <figure class="hero-media">
+            <img
+              class="avatar"
+              alt="Profile picture placeholder"
+              width="240" height="240"
+              src="images/tony-ziti.jpeg" />
+          </figure>
+        </div>
+      </section>
+
+      <!-- About -->
+      <section id="about" class="section">
+        <div class="container">
+          <h2>About</h2>
+          <p>
+            I’m a software testing professional with a zest for software development.
+          </p>
+          <p>
+            I also love mentoring people on testing and coding.
+          </p>
+        </div>
+      </section>
+
+      <!-- Projects -->
+      <!--<section id="projects" class="section alt">
+        <div class="container">
+          <h2>Projects</h2>
+
+          <div class="card-grid">
+            
+            <article class="card">
+              <div class="card-media">
+                <img alt="Project screenshot placeholder" loading="lazy"
+                  src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='800' height='500'%3E%3Crect width='100%25' height='100%25' fill='%23d9d9d9'/%3E%3Ctext x='50%25' y='50%25' dominant-baseline='middle' text-anchor='middle' font-family='Arial' font-size='24'%3EProject Screenshot%3C/text%3E%3C/svg%3E" />
+              </div>
+              <div class="card-body">
+                <h3>Test Automation Starter</h3>
+                <p>Lightweight Playwright/Selenium patterns for reliable E2E tests.</p>
+                <div class="card-actions">
+                  <a class="link" href="#" target="_blank" rel="noopener">GitHub Repo</a>
+                  <a class="link" href="#" target="_blank" rel="noopener">Live Demo</a>
+                </div>
+              </div>
+            </article>
+
+            
+            <article class="card">
+              <div class="card-media">
+                <img alt="Project screenshot placeholder" loading="lazy"
+                  src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='800' height='500'%3E%3Crect width='100%25' height='100%25' fill='%23d9d9d9'/%3E%3Ctext x='50%25' y='50%25' dominant-baseline='middle' text-anchor='middle' font-family='Arial' font-size='24'%3EProject Screenshot%3C/text%3E%3C/svg%3E" />
+              </div>
+              <div class="card-body">
+                <h3>Bug Bash Toolkit</h3>
+                <p>Charters, heuristics, and session templates for exploratory testing.</p>
+                <div class="card-actions">
+                  <a class="link" href="#" target="_blank" rel="noopener">GitHub Repo</a>
+                  <a class="link" href="#" target="_blank" rel="noopener">Live Demo</a>
+                </div>
+              </div>
+            </article>
+
+            
+            <article class="card">
+              <div class="card-media">
+                <img alt="Project screenshot placeholder" loading="lazy"
+                  src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='800' height='500'%3E%3Crect width='100%25' height='100%25' fill='%23d9d9d9'/%3E%3Ctext x='50%25' y='50%25' dominant-baseline='middle' text-anchor='middle' font-family='Arial' font-size='24'%3EProject Screenshot%3C/text%3E%3C/svg%3E" />
+              </div>
+              <div class="card-body">
+                <h3>API Test Harness</h3>
+                <p>Postman collections and scripts for validating critical APIs.</p>
+                <div class="card-actions">
+                  <a class="link" href="#" target="_blank" rel="noopener">GitHub Repo</a>
+                  <a class="link" href="#" target="_blank" rel="noopener">Live Demo</a>
+                </div>
+              </div>
+            </article>
+
+            
+            <article class="card">
+              <div class="card-media">
+                <img alt="Project screenshot placeholder" loading="lazy"
+                  src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='800' height='500'%3E%3Crect width='100%25' height='100%25' fill='%23d9d9d9'/%3E%3Ctext x='50%25' y='50%25' dominant-baseline='middle' text-anchor='middle' font-family='Arial' font-size='24'%3EProject Screenshot%3C/text%3E%3C/svg%3E" />
+              </div>
+              <div class="card-body">
+                <h3>Test Data Generator</h3>
+                <p>Create realistic test datasets for demos and QA.</p>
+                <div class="card-actions">
+                  <a class="link" href="#" target="_blank" rel="noopener">GitHub Repo</a>
+                  <a class="link" href="#" target="_blank" rel="noopener">Live Demo</a>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>-->
+
+      <!-- Contact -->
+      <section id="contact" class="section">
+        <div class="container">
+          <h2>Contact</h2>
+          <ul class="contact-list">
+            <li><strong>Email:</strong> <a href="mailto:contact@softwarequalityassociates.com">contact@softwarequalityassociates.com</a></li>
+            <li><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/joedefilippo" target="_blank" rel="noopener">https://www.linkedin.com/in/joedefilippo</a></li>
+            <li><strong>Phone:</strong> <a href="tel:+1234567890">+1 (234) 567-890</a></li>
+          </ul>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">
+        <p>© <span id="year"></span> Joe DeFilippo. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <script src="script.js" defer></script>
+  </body>
+</html>
